@@ -1,0 +1,112 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+ .wrapper {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    -webkit-transition: all 1s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: rotate(0);
+}
+.inner {
+    content: url("https://cdn1.iconfinder.com/data/icons/windows-8-metro-style/512/pencil.png");
+    border-radius: 50px;
+    margin: 250px 0 0 550px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all 1s;
+    background: blue;
+}
+html:hover .wrapper {
+    -webkit-transform: rotate(-120deg);
+}
+html:hover .inner {
+    -webkit-transform: rotate(120deg);
+}
+.wrapper2 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    -webkit-transition: all 1s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: rotate(-120deg);
+}
+.inner2 {
+    content: url("https://cdn1.iconfinder.com/data/icons/windows-8-metro-style/512/pencil.png");
+    border-radius: 50px;
+    margin: 250px 0 0 550px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all 1s;
+    background: red;
+    -webkit-transform: rotate(120deg);
+}
+html:hover .wrapper2 {
+    -webkit-transform: rotate(-240deg);
+}
+html:hover .inner2 {
+    -webkit-transform: rotate(240deg);
+}
+.wrapper3 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    -webkit-transition: all 1s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transform: rotate(-240deg);
+}
+.inner3 {
+    content: url("https://cdn1.iconfinder.com/data/icons/windows-8-metro-style/512/pencil.png");
+    -webkit-transform: rotate(240deg);
+    border-radius: 50px;
+    margin: 250px 0 0 550px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    -webkit-transition: all 1s;
+    background: green;
+}
+html:hover .wrapper3 {
+    -webkit-transform: rotate(-360deg);
+}
+html:hover .inner3 {
+    -webkit-transform: rotate(360deg);
+}
+.second {
+    margin-left: 450px;
+}
+.third {
+    margin-left: 350px;
+}
+ .outerSpin {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 200px; 
+}
+.outerSpin2 {
+    -webkit-transform: rotate(-20deg);
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+.outerSpin3 {
+    -webkit-transform: rotate(-50deg);
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+.wholeMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    height: 1200px;
+}
